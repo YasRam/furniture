@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    /* background-color: aquamarine; */
+    padding: 20px 0px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.navbar .nav-logo a {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navbar .nav-logo {
+    width: 20%;
+}
+
+.navbar .nav-links {
+    width: 60%;
+}
+
+.navbar .nav-sign {
+    width: 20%;
+    text-align: right;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul {
+    list-style: none;
+    width: fit-content;
+    margin: auto;
+}
+
+.navbar ul li {
+    margin-left: 10PX;
+    margin-right: 10px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.content {
+    width: 50%;
+}
+
+.content img {
+    width: 100%;
+}
+
+.content h1,
+.content p,
+.content button {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 20px 50px;
+    border: none;
+    background-color: #fff;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #f89646;
+}
+
+.btn-other {
+    background-color: #6bb7be;
+}
+
+.pp {
+    margin-top: 50px;
+    padding-top: 25px;
+}
+
+.bg-gray {
+    background-color: #f9fbfa;
+    padding: 20px;
+}
+
+.titles {
+    margin-top: 50px;
+}
+
+.card {
+    padding: 20px;
+    width: 33.33%;
+    float: left;
+}
+
+.card div {
+    background-color: #f9fbfa;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+.card h3 {
+    text-align: left;
+}
+
+.card img {
+    width: 80%;
+    height: 300px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #68b9bb;
+    font-size: larger;
+}
+
+.cards {
+    margin-top: 100px;
+}
+
+.form {
+    width: 50%;
+    padding: 10px;
+}
+
+.my-input {
+    display: block;
+    width: 100%;
+    margin: 50px 0;
+    border: none;
+    padding: 20px 10px;
+}
+
+.test h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.opinion {
+    /* border: solid 1px gray; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    padding: 20px;
+    margin: auto
+}
+
+.opinion img {
+    width: 20%;
+    border-radius: 50%;
+    border: #6bb7be 10px solid;
+}
+
+.contant {
+    width: 80%;
+    padding: 20px 10px;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 100;
+}
